@@ -1,0 +1,93 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 1260px; 
+    height: 50px;
+}
+.cabecalho h1{
+    font-size: 40px;
+}
+.button{
+    margin: 35px;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #252525;
+    color: #fff;
+}
+.navbar{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home p{
+    background: #FFFFFF;
+    font-size: 24px;
+}
+.area-principal{
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img2"
+    "img3 img4 img2"
+    "img5 img6 img6"
+    "img5 img7 img8";
+    padding: 17px 13px;
+    gap: 13px;
+}
+.area-principal img{
+    width: 100%;
+    height: 100%;
+}
+.nav-img1{
+    grid-area: img1;
+    position: relative;
+}
+#imagem {
+    position: absolute;
+}
+#texto {
+    background-color: rgba(0, 0, 0, 62%);
+    font-size: 32px;
+    left: 240px;
+    top: 130px;
+  }
+.nav-img2{
+    grid-area: img2;
+}
+.nav-img3{
+    grid-area: img3;
+}
+.nav-img4{
+    grid-area: img4;
+}
+.nav-img5{
+    grid-area: img5;
+}
+.nav-img6{
+    grid-area: img6;
+}
+.nav-img7{
+    grid-area: img7;
+}
+.nav-img8{
+    grid-area: img8;
+}
+.rodape{
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+}
+.rodape h1{
+    text-align: end;
+}
+.rodape h2{
+    text-align: start;
+    font-size: 40px;
+}
